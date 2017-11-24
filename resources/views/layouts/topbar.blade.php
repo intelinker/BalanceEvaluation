@@ -21,7 +21,7 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <img width="40px" src="{{ URL::asset('/images/logo.png') }}" href="/" style="margin: 5px">
+            <img width="40px" src="{{ url('/images/logo.png') }}" href="/" style="margin: 5px">
 
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
