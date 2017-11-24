@@ -61,7 +61,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle {{ (Request::is('/') ? 'active' : '') }}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">分类统计<span class="caret"></span></a>
                     <ul class="dropdown-menu" aria-labelledby="dLabel">
-                        <li> <a href="#"><i class="fa fa-user"></i>数据统计</a></li>
+                        <li> <a href="#">数据统计</a></li>
                         <li><a href="#">数据分析</a></li>
                         {{--<li><a href="#">Something else here</a></li>--}}
                         {{--<li role="separator" class="divider"></li>--}}

@@ -35,8 +35,8 @@
             }
 
             .flex-center {
+                margin-top: 200px;
                 align-items: center;
-                display: flex;
                 justify-content: center;
             }
 
@@ -87,10 +87,8 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    老年人平衡能力评估
-                </div>
-
+                <div id="finances-div"></div>
+                <?= $lava->render('ComboChart', 'Finances', 'finances-div') ?>
                 {{--<div class="links">--}}
                     {{--<a href="https://laravel.com/docs">Documentation</a>--}}
                     {{--<a href="https://laracasts.com">Laracasts</a>--}}

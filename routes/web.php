@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+Route::get('/', 'PatternController@showChart');
+Route::resource('patterns', 'PatternController');
+
