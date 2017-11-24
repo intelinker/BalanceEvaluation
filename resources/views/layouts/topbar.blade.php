@@ -38,7 +38,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle {{ (Request::is('/') ? 'active' : '') }}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">模型管理<span class="caret"></span></a>
                     <ul class="dropdown-menu" aria-labelledby="dLabel">
-                        <li> <a href="#"><i class="fa fa-user"></i>模型构建</a></li>
+                        <li> <a href="#">模型构建</a></li>
                         <li><a href="#">模型展示</a></li>
                         <li><a href="#">模型输出</a></li>
                         {{--<li role="separator" class="divider"></li>--}}
@@ -50,7 +50,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle {{ (Request::is('/') ? 'active' : '') }}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">人员信息管理<span class="caret"></span></a>
                     <ul class="dropdown-menu" aria-labelledby="dLabel">
-                        <li> <a href="#"><i class="fa fa-user"></i>个人基础信息</a></li>
+                        <li> <a href="#">个人基础信息</a></li>
                         <li><a href="#">个人采样信息管理</a></li>
                         <li><a href="#">个人平衡能力分析</a></li>
                         {{--<li role="separator" class="divider"></li>--}}
@@ -72,7 +72,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle {{ (Request::is('/') ? 'active' : '') }}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">系统管理<span class="caret"></span></a>
                     <ul class="dropdown-menu" aria-labelledby="dLabel">
-                        <li> <a href="#"><i class="fa fa-user"></i>系统配置</a></li>
+                        <li> <a href="#">系统配置</a></li>
                         <li><a href="#">数据字典</a></li>
                         <li><a href="#">人员管理</a></li>
                         {{--<li role="separator" class="divider"></li>--}}

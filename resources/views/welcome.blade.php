@@ -20,6 +20,14 @@
                 font-weight: 100;
                 height: 100vh;
                 margin: 0;
+
+            }
+
+            .body {
+
+                /*background-size:cover;*/
+                background-size:100%;
+                background: url('/images/mainback.jpg') no-repeat;
             }
 
             .full-height {
@@ -65,7 +73,7 @@
             }
         </style>
     </head>
-    <body>
+    <body class="body" style="background-size:100%;">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
