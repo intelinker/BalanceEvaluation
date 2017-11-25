@@ -85,7 +85,7 @@ class PatternController extends Controller
     }
 
     public function showChart() {
-        $chartjs = new Chart->chartjs
+        $chartjs = app()->chartjs
             ->name('lineChartTest')
             ->type('line')
             ->size(['width' => 400, 'height' => 200])
@@ -113,8 +113,8 @@ class PatternController extends Controller
                 ]
             ])
             ->options([]);
-
-        return view('welcome', compact('chartjs'));
+//        dd($chartjs->render());
+        return view('welcome', ['chartjs'=>$chartjs]);
 
         //        $lava = new Lavacharts();
 //        $stocksTable = $lava->DataTable();  // Lava::DataTable() if using Laravel

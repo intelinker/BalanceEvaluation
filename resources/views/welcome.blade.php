@@ -88,6 +88,9 @@
             @endif
 
             <div class="content " style="margin-top: 200px">
+                @php
+                    echo $chartjs->render();
+                @endphp
                 <div style="width:75%;">
                     {!! $chartjs->render() !!}
                 </div>
