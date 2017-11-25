@@ -26,7 +26,7 @@
     <!-- /.navbar-header -->
 
     @yield('content')
-{{--    @include('layouts.footer')--}}
+    @include('layouts.footer')
     <script src="{{ asset("/src/assets/scripts/frontend.js") }}" type="text/javascript"></script>
 
     {{--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>--}}
